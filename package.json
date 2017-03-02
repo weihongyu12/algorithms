@@ -1,0 +1,25 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weihongyu12/algorithms.git"
+  },
+  "author": "weihongyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weihongyu12/algorithms/issues"
+  },
+  "homepage": "https://github.com/weihongyu12/algorithms#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.1.8",
+    "webpack": "^2.2.1"
+  }
+}
