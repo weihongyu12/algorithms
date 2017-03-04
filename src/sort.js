@@ -7,7 +7,7 @@
 /**
  * 排序算法class
  */
-class Sort {
+export default class Sort {
   constructor() {
     this.array = [];
   }
