@@ -17,9 +17,9 @@ export default class Search extends Sort {
    * @return {number} 搜索结果
    */
   sequentialSearch(item) {
-    for (let i = 0; i < this.array.length; i++) {
-      if (item === this.array[i]) {
-        return i;
+    for (let [index, element] of this.array.entries()) {
+      if (item === element) {
+        return index;
       }
     }
     return -1;
@@ -45,7 +45,7 @@ export default class Search extends Sort {
       } else if (element > item) {
         high = mid - 1;
       } else {
-        return high
+        return high;
       }
     }
     return -1;
