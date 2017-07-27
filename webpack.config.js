@@ -7,7 +7,7 @@ module.exports = {
     sort  : './src/sort.js',
   },
   output : {
-    path    : './dist',
+    path    : __dirname + '/dist',
     filename: '[name].js'
   },
   module : {
